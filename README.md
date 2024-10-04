@@ -1,4 +1,4 @@
-# SASE Trivia Bingo Card Generator
+# Bingo Card Generator
 
 ### Motivation
 
