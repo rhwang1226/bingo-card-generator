@@ -8,7 +8,7 @@ As part of organizing a trivia bingo session for the Society of Asian Scientists
 
 This Python script automatically generates 200 bingo cards in a custom format for a trivia bingo event. Each bingo card is a 5x5 grid of random numbers, where each column is populated with numbers from a specific range (e.g., column 1 contains numbers from 1-10, column 2 from 11-20, and so on). The grid is formatted with specific dimensions, margins, and fonts, so that the final result fits the requirements of the event. The cells of each bingo card are evenly spaced and bordered to ensure clarity. Once generated, the script creates a Word document (`SASE-Bingo-Cards.docx`) containing all 200 cards, each on a separate page. 
 
-The code also ensures that no two cards are identical, reducing the chance of duplicates, which is a common issue when manually creating bingo cards.
+The code also ensures that no two cards are identical, reducing the chance of duplicates, which could be an issue when manually creating bingo cards.
 
 I chose Python for this task due to its versatility and ease of use, especially with libraries like `python-docx` which simplify the process of working with Word documents. Python also allows for fast and error-free automation, perfect for generating large quantities of unique bingo cards.
 
